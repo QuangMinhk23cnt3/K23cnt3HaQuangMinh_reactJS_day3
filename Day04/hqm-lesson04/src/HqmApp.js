@@ -7,7 +7,7 @@ import HqmClassComp from './components/HqmClassComp';
 function HqmApp() {
   const users = {
     fullName:'Ha Quang Minh',
-    age:1000,
+    age:19,
     phone:"096969996"
   }
   return (
@@ -17,7 +17,7 @@ function HqmApp() {
       <div className='alert alert-danger'>
           <HqmFuncComp name="Quang Minh" address="69 Say Gex" company="SayGex999" />
           <hr/>
-          <HqmFuncComp name="Minh Quang" address="99 Say Gex" company="SayGex999" /> 
+          <HqmFuncComp name="Trinh Tran Phuong Tuan" address="99 Say Gex" company="SayGex999" /> 
       </div>
       <div className='alert alert-danger'>
           <HqmFuncComp1 renderInfo={users}/>

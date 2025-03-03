@@ -5,8 +5,8 @@ class HqmClassComp extends Component {
     super(props);
     //khoi tao state
     this.state = {
-        fullName:"Minh Minh",
-        age:1000,
+        fullName:"Minh",
+        age:19,
         phone:"096969996"
     }
   }
@@ -19,14 +19,14 @@ class HqmClassComp extends Component {
   }
     render() {
     return (
-      <div className='alert alert-success'>
+      <div className='alert alert-info'>
         <h2>Trình bày dữ liệu từ state</h2>
-                <p>info state (fullName): {this.state.fullName}</p>
-                <p>info state (age): {this.state.age}</p>
-                <p>info state (phone): {this.state.phone}</p>
+                <p>info state ( fullName ): {this.state.fullName}</p>
+                <p>info state ( age ): {this.state.age}</p>
+                <p>info state ( phone ): {this.state.phone}</p>
 
                 <hr/>
-                <button className='btn btn-primary' onClick={this.changeInfo}>Change Info</button>
+                <button className='btn btn-success' onClick={this.changeInfo}>Change Info</button>
                 <hr/>
                 <h3>Lấy dữ liệu từ Props</h3>
                 <p>Name: {this.props.renderName}</p>

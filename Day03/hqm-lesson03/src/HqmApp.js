@@ -13,6 +13,7 @@ function HqmApp() {
         {/*Su dung function component */}
         <HqmFuncComp />
 
+        <hr />
         {/*Su dung class component */}
         <HqmClassComp></HqmClassComp>
     </div>
