@@ -1,7 +1,8 @@
 import React from 'react'
 import HqmReadApiLocal from './components/HqmReadApiLocal'
-import HqmReadMockAPI from './components/HqmReadMockAPI'
+import HqmReadMockApi from './components/HqmReadMockAPI'
 import HqmCreateMockAPI from './components/HqmCreateMockAPI'
+
 
 export default function HqmApp() {
   return (
@@ -11,10 +12,11 @@ export default function HqmApp() {
       <HqmReadApiLocal />
       <hr />
       <h2>Doc du lieu tu MockApi (mockapi.io)</h2>
-      <HqmReadMockAPI />
+      <HqmReadMockApi />
       <hr />
       <HqmCreateMockAPI />
       <hr />
     </div>
   )
 }
+
