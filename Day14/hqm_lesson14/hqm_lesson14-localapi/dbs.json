@@ -1,0 +1,25 @@
+{
+    "users":[
+        {
+            "fullName": "Ha Quang Minh",
+            "age": 19,
+            "class":"k23cnt3"
+        },
+        {
+            "fullName": "Trinh Tran Phuong Tuan",
+            "age": 69,
+            "class":"k23cnt99"
+        },
+        {
+            "fullName": "I DONT KNOW",
+            "age": 100,
+            "class":"k23cnt5"
+        }
+    ],
+    "students":[
+        {
+            "studentId": "067",
+            "studentName": "Ha Quang Minh"
+        }
+    ]
+}
