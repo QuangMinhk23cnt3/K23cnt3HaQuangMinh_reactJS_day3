@@ -29,8 +29,8 @@ const HqmCreateUsers = () => {
             Đang khóa
           </label>
         </div>
-        <button type="submit" className="btn">Create</button>
-        <button type="button" onClick={() => navigate('/users')} className="btn">Back</button>
+        <button type="submit" className="button">Create</button>
+        <button type="button" onClick={() => navigate('/users')} className="button">Back</button>
       </form>
     </div>
   );

@@ -34,8 +34,8 @@ const HqmListUser = () => {
               <td>{user.hqm_phone}</td>
               <td>{user.hqm_active ? "Hoạt động" : "Đang khóa"}</td>
               <td>
-                <Link to={`/edit/${user.id}`} className="btn">Sửa</Link>
-                <button onClick={() => handleDelete(user.id)} className="btn">Xóa</button>
+                <Link to={`/edit/${user.id}`} className="button">Sửa</Link>|
+                <button onClick={() => handleDelete(user.id)} className="button">Xóa</button>
               </td>
             </tr>
           ))}

@@ -34,7 +34,7 @@ const HqmEditUser = () => {
                     </label>
                 </div>
                 <button type="submit" className="btn">Update</button>
-                <button type="button" onClick={() => navigate('/users')} className="btn">Back</button>
+                <button type="button" onClick={() => navigate('/users')} className="button">Back</button>
             </form>
         </div>
     );
